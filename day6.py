@@ -76,6 +76,17 @@ for i in range(len(user_input) - 1, -1, -1):
 
 print("The reversed string is:", reversed_string)
 
+#task7
+rawstr = input('Enter a number: ')
+try:
+    ival = int(rawstr)
+    if ival > 0:
+        print('Nice work')
+    else:
+        print('The number is not positive')
+except ValueError:
+    print('Not a number')
+
 
 #task8
 #Multiply Two Numbers 
