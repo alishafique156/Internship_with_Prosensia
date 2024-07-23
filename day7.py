@@ -50,6 +50,17 @@ else:
     print('Something else')
     print('All done')  
 
+#task7
+rawstr = input('Enter a number: ')
+try:
+    ival = int(rawstr)
+    if ival > 0:
+        print('Nice work')
+    else:
+        print('The number is not positive')
+except ValueError:
+    print('Not a number')
+    
 #task8
 hours_worked = float(input("Enter hours worked: "))
 hourly_rate = float(input("Enter hourly rate: "))
