@@ -81,7 +81,8 @@ for char in string:
     reversed_string = char + reversed_string
 print(f"Reversed string: {reversed_string}")
 
-#task9N = int(input("Enter the number of Fibonacci numbers to generate: "))
+#task9
+N = int(input("Enter the number of Fibonacci numbers to generate: "))
 fib_sequence = [0, 1]
 
 for i in range(2, N):
