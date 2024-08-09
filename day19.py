@@ -74,3 +74,4 @@ def reverse_and_sort_dict(d):
 d = {'a': 10, 'b': 1, 'c': 22}
 print(reverse_and_sort_dict(d))
 
+#completed.
